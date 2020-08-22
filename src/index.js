@@ -5,8 +5,8 @@ import ParentComponent from './components/ParentComponent'
 
 ReactDOM.render(
   <div>
+  <ParentComponent >
     <Form />
-    <ParentComponent ?>
   </div>,
   document.getElementById('root')
 );
